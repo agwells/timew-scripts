@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/usr/share/icons/HighContrast/scalable/actions/dialog-close.svg
+Icon[en_US]=/usr/share/icons/HighContrast/scalable/actions/dialog-close.svg
+Name[en_US]=Stop time tracking
+Exec=timew stop
+Name=Stop time tracking
