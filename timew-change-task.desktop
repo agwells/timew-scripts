@@ -7,5 +7,5 @@ Terminal=false
 Icon=/usr/share/icons/HighContrast/scalable/actions/document-open-recent.svg
 Icon[en_US]=/usr/share/icons/HighContrast/scalable/actions/document-open-recent.svg
 Name[en_US]=Change task
-Exec=/home/aaronw/programs/timew-menu-prompt.bash
+Exec=/home/aaronw/programs/timew-scripts/timew-menu-prompt.bash
 Name=Change task
