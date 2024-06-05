@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if $(timew >> /dev/null); then
-    timew | head -n 1
+    echo "$(timew | head -n 1)  $(timew | head -n 4 | tail -n 1 | awk '{print $2}')"
 else
     # Make it blink into ALL CAPS to try to remind
     # me to set a task.
