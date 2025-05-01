@@ -1,0 +1,13 @@
+
+[Unit]
+Description=Stop current taskwarrior task on logout
+
+[Service]
+Type=oneshot
+ExecStart=
+ExecStop=/usr/local/bin/timew stop
+RemainAfterExit=yes
+TimeoutStopSec=1
+
+[Install]
+WantedBy=at-spi-dbus-bus.service

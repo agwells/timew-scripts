@@ -1,0 +1,14 @@
+[Unit]
+Description=Stop current taskwarrior task on sleep
+
+[Service]
+Type=oneshot
+ExecStart=/home/aaronw/programs/timew-scripts/timew-stop-root.bash
+
+[Install]
+WantedBy=hibernate.target
+WantedBy=hybrid-sleep.target
+#WantedBy=lock.target
+WantedBy=sleep.target
+WantedBy=suspend.target
+
